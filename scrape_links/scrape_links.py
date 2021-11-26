@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup, SoupStrainer
 import requests
 import sys
 # pip install beautifulsoup4
-def main()
+def main():
     url = sys.argv[1]
     find = sys.argv[2] # 'body' 'source'
     get = sys.argv[3] # 'class' 'src'
